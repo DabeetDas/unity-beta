@@ -17,7 +17,6 @@
   ],
   "scripts": {
     "bot": "node ./index.js",
-    "build": "my-framerwork build --output public",
     "start": "node index.js"
   },
   "repository": "/discord-time-bot",
