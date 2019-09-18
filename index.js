@@ -145,7 +145,7 @@ const embed = new Discord.RichEmbed()
 .setImage("https://imgur.com/4QKHoAK")
 .setFooter("Unity Scrims ", "https://imgur.com/4QKHoAK"); 
 
-channel1 = message.channel 
+let channel1 = message.channel 
 
 channel1.send(embed);
 
