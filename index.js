@@ -151,7 +151,7 @@ channel1.send(embed);
 
 
 }
-}
+});
 
 
 /**
