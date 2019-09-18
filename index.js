@@ -126,6 +126,8 @@ function handleDisconnect() {
 	}
 }
 
+client.on('message', message => {
+	
 if(message.content.startsWith("u!info")) {
 
 const embed = new Discord.RichEmbed()
@@ -148,6 +150,7 @@ channel1 = message.channel
 channel1.send(embed);
 
 
+}
 }
 
 
