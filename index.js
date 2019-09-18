@@ -126,7 +126,7 @@ function handleDisconnect() {
 	}
 }
 
-client.on('message', message => {
+bot.on('message', message => {
 	
 if(message.content.startsWith("u!info")) {
 
