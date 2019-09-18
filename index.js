@@ -126,6 +126,31 @@ function handleDisconnect() {
 	}
 }
 
+if(message.content.startsWith("u!info")) {
+
+const embed = new Discord.RichEmbed()
+
+.setColor("#0099ff")
+.setTitle("UnityScrims")
+.setURL("https://discord.gg/WNBgfeK")
+.setAuthor("Arena Solos", "https://imgur.com/4QKHoAk" , "https://discord.gg/WNBgfek")
+.setDescription("Version : 9.0.1")
+.setThumbnail("https://imgur.com/4QKHoAK")
+.addField("CPU Load : 0.0038" , true)
+.addField("Custom Code : ")
+.addBlankField()
+.addField("API Latency : 160 ms (EU)" ,true)
+.setImage("https://imgur.com/4QKHoAK")
+.setFooter("Unity Scrims ", "https://imgur.com/4QKHoAK"); 
+
+channel1 = message.channel 
+
+channel1.send(embed);
+
+
+}
+
+
 /**
  * @desc Attempt to log into Discord's servers. Handle as many errors as we can instead of crashing.
  * @function
