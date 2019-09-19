@@ -144,7 +144,7 @@ const embed = new Discord.RichEmbed()
 .addBlankField()
 .addField("API Latency : 160 ms (EU)")
 .setImage("https://imgur.com/4QKHoAK")
-.setFooter("Unity Scrims ", "https://imgur.com/ZIHH2Zf); 
+.setFooter("Unity Scrims ", "https://imgur.com/ZIHH2Zf"); 
 	   
 	   
 let channel1 = message.channel 
