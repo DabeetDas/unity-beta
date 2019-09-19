@@ -134,13 +134,13 @@ const embed = new Discord.RichEmbed()
 
 .setColor("#0099ff")
 .setTitle("UnityScrims")
-.setURL("https://contactifcindia.wixsite.com/unityscrims")
+.setURL("https://imgur.com/ZIHH2Zf")
 .setAuthor("Unity Time", "https://imgur.com/4QKHoAk" , "https://contactifcindia.wixsite.com/unityscrims")
-.setDescription("Version : 9.0.1")
+.setDescription("Version : 9.0.1","Servers : 1 (Unity)")
 .setThumbnail("https://imgur.com/ZIHH2Zf")
-.addField("CPU Load : 0.0038")
-.addField("Library : Node.js")
-.addField("API Latency : 160 ms (EU)")
+.addField("CPU Load : 0.0038", "Local Server Latency : 0ms (Gurgaon,India)")
+.addField("Library : Node.js"."Main stream language : Javascript")
+.addField("API Latency : 160 ms (EU)","Server Location : London , EU")
 .setImage("https://imgur.com/4QKHoAK")
 .setFooter("Unity Scrims ", "https://imgur.com/ZIHH2Zf"); 
 	   
