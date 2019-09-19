@@ -133,9 +133,9 @@ if(message.content.startsWith("u!info")) {
 const embed = new Discord.RichEmbed()
 
     .setColor("#ffff00")
-    .setTitle("Test Server")
+    .setTitle("Unity Scrims | ME")
     .setURL("https://discord.gg/54ycF8M")
-    .setAuthor("Test Bot", "https://i.imgur.com/heroxyY.png" , "https://contactifcindia.wixsite.com/unityscrims")
+    .setAuthor("Unity Alpha", "https://i.imgur.com/heroxyY.png" , "https://contactifcindia.wixsite.com/unityscrims")
     .setDescription("Version : 21.0.2")
     .setThumbnail("https://i.imgur.com/heroxyY.png")
     .addField("CPU Load : 0.0038", "Local Server Latency : 0ms (Gurgaon,India)")
