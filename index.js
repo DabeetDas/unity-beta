@@ -132,17 +132,18 @@ if(message.content.startsWith("u!info")) {
 
 const embed = new Discord.RichEmbed()
 
-.setColor("#0099ff")
-.setTitle("UnityScrims")
-.setURL("https://imgur.com/ZIHH2Zf")
-.setAuthor("Unity Time", "https://imgur.com/4QKHoAk" , "https://contactifcindia.wixsite.com/unityscrims")
-.setDescription("Version : 21.0.1","Servers : 1 (Unity)")
-.setThumbnail("https://imgur.com/ZIHH2Zf")
-.addField("CPU Load : 0.0038", "Local Server Latency : 0ms (Gurgaon,India)")
-.addField("Library : Node.js", "Main stream language : Javascript")
-.addField("API Latency : 160 ms (EU)","Server Location : London , EU")
-.setImage("https://imgur.com/4QKHoAK")
-.setFooter("Unity Scrims ", "https://imgur.com/ZIHH2Zf"); 
+    .setColor("#ffff00")
+    .setTitle("Test Server")
+    .setURL("https://discord.gg/54ycF8M")
+    .setAuthor("Test Bot", "https://i.imgur.com/heroxyY.png" , "https://contactifcindia.wixsite.com/unityscrims")
+    .setDescription("Version : 21.0.2")
+    .setThumbnail("https://i.imgur.com/heroxyY.png")
+    .addField("CPU Load : 0.0038", "Local Server Latency : 0ms (Gurgaon,India)")
+    .addField("Library : Node.js", "Main stream language : Javascript")
+    .addField("API Latency : 160 ms (EU)","Server Location : London , EU")
+    .addField("Servers : 1 (Unity)", "Heap Size: 550 MB")
+    
+    .setFooter(" Developed by Unity Staff " ,"https://i.imgur.com/heroxyY.png"); 
 	   
 	   
 let channel1 = message.channel 
