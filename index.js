@@ -139,7 +139,7 @@ const embed = new Discord.RichEmbed()
 .setDescription("Version : 9.0.1","Servers : 1 (Unity)")
 .setThumbnail("https://imgur.com/ZIHH2Zf")
 .addField("CPU Load : 0.0038", "Local Server Latency : 0ms (Gurgaon,India)")
-.addField("Library : Node.js"."Main stream language : Javascript")
+.addField("Library : Node.js", "Main stream language : Javascript")
 .addField("API Latency : 160 ms (EU)","Server Location : London , EU")
 .setImage("https://imgur.com/4QKHoAK")
 .setFooter("Unity Scrims ", "https://imgur.com/ZIHH2Zf"); 
