@@ -137,13 +137,14 @@ const embed = new Discord.RichEmbed()
 .setURL("https://discord.gg/WNBgfeK")
 .setAuthor("Unity Time", "https://imgur.com/4QKHoAk" , "https://discord.gg/WNBgfek")
 .setDescription("Version : 9.0.1")
-.setThumbnail("https://imgur.com/4QKHoAK")
-.addField("CPU Load : 0.0038" , true)
+.setThumbnail("https://imgur.com/ZIHH2Zf")
+.addField("CPU Load : 0.0038")
 .addBlankField()
-.addField("API Latency : 160 ms (EU)" ,true)
+.addField("API Latency : 160 ms (EU)")
 .setImage("https://imgur.com/4QKHoAK")
-.setFooter("Unity Scrims ", "https://imgur.com/4QKHoAK"); 
-
+.setFooter("Unity Scrims ", "https://imgur.com/ZIHH2Zf); 
+	   
+	   
 let channel1 = message.channel 
 
 channel1.send(embed);
