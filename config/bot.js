@@ -19,7 +19,7 @@ module.exports = {
 	 * @default "?"
 	 * @type string
 	*/
-	prefix: "?",
+	prefix: "!",
 	/** 
 	 * @desc Discord API bot token (keep it secret)
 	 * @default "NjIxNTQ4MjkzMzM5NDgwMDk1.XXnzdg.5obBrz8fS9fDNqdFvwwcgLlLkBY"
