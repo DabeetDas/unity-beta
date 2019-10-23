@@ -85,7 +85,7 @@ bot.on('message', handleMessage);
  */
 function handleLogin() {
 	console.log('Discord Time Bot is now online!');
-	bot.user.setActivity("Unity Scrims", {type: "WATCHING"});
+	bot.user.setActivity("Dubai Time", {type: "WATCHING"});
 	bot.user.setStatus("dnd")
 	/**
 	 * @desc Time function that updates the bot's nickname in every server
