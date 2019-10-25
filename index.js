@@ -159,7 +159,7 @@ channel1.send(embed);
  * @desc Attempt to log into Discord's servers. Handle as many errors as we can instead of crashing.
  * @function
  */
-bot.login(process.env.BOT_TOKEN);
+bot.login(process.env.BOT_TOKEN_UNITY);
 bot.on('ready', handleLogin);
 bot.on('resume', handleLogin);
 bot.on('reconnecting', handleDisconnect);
